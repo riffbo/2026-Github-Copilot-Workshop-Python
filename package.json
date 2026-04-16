@@ -1,0 +1,11 @@
+{
+  "name": "2026-github-copilot-workshop-python",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub Copilot Workshop",
+  "scripts": {
+    "install:all": "cd 2.copilotWebRelay && npm run install:all",
+    "dev": "cd 2.copilotWebRelay && npm run dev",
+    "build": "cd 2.copilotWebRelay && npm run build"
+  }
+}
