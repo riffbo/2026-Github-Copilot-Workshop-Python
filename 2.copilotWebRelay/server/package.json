@@ -1,0 +1,23 @@
+{
+  "name": "copilot-web-relay-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@github/copilot-sdk": "^0.2.2",
+    "express": "^5.1.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/ws": "^8.18.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
